@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #303030;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+}
+
+#logo{
+    width: 10%;
+    margin-bottom: -5%;
+}
+
+header h1{
+    color: white;
+    font-family:'verdana';
+    text-align: center;
+}
+
+section{
+    background-color: #f0eae6;
+    border-radius: 15px;
+    width: 30%;
+    padding: 2%;
+    
+}
+
+#botao{
+    display: flex;
+    justify-content: space-between;
+}
+
+section button{
+    border-radius: 10px;
+    border: 0;
+    background-color: #0d70f3;
+    font-family: 'arial';
+    font-size: 90%;
+    color: white;
+    width: 40%;
+    height: 40px;
+}
+
+@media (max-width: 580px ){
+
+section{
+    width: 75%;
+}
+}
+
+@media (min-width:581px) and (max-width: 750px ){
+
+section{
+    width: 58%;
+}
+}
+
+@media (min-width:751px) and (max-width: 968px ){
+
+section{
+    width: 45%;
+}
+}
+
+@media (min-width:969px) and (max-width: 1120px ){
+
+section{
+    width: 35%;
+}
+}
